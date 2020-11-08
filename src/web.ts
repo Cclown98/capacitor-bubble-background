@@ -13,4 +13,13 @@ export class BubbleBackgroundWeb
     console.log('ECHO', options);
     return options;
   }
+
+  changeToBubbleMode(options: { value: string }): Promise<{ value: any }> {
+    return Promise.resolve({ value: options });
+  }
+
+  restoreForegroundMode(options: { value: string }): Promise<{ value: any }> {
+    return Promise.resolve({ value: options });
+  }
 }
+

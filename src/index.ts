@@ -6,7 +6,6 @@ import { BubbleBackgroundWeb } from './web';
 
 const implementations: PluginImplementations<BubbleBackgroundPlugin> = {
   android: Plugins.BubbleBackground,
-  ios: Plugins.BubbleBackground,
   web: new BubbleBackgroundWeb(),
 };
 
