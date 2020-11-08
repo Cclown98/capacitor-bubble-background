@@ -40,14 +40,14 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 ### changeToBubbleMode(...)
 
 ```typescript
-changeToBubbleMode(options: { value: string; }) => Promise<{ value: string; }>
+changeToBubbleMode(options: { value: string; }) => Promise<{ value: any; }>
 ```
 
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ value: string; }</code> |
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;{ value: any; }&gt;</code>
 
 --------------------
 
@@ -55,14 +55,14 @@ changeToBubbleMode(options: { value: string; }) => Promise<{ value: string; }>
 ### restoreForegroundMode(...)
 
 ```typescript
-restoreForegroundMode(options: { value: string; }) => Promise<{ value: string; }>
+restoreForegroundMode(options: { value: string; }) => Promise<{ value: any; }>
 ```
 
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ value: string; }</code> |
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;{ value: any; }&gt;</code>
 
 --------------------
 
