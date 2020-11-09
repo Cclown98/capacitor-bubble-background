@@ -15,8 +15,6 @@ import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
-import com.txusballesteros.bubbles.BubbleLayout;
-import com.txusballesteros.bubbles.BubblesManager;
 
 
 @NativePlugin(name = "BubbleBackground", requestCodes = {BubbleBackgroundPlugin.SYSTEM_ALERT_WINDOW, BubbleBackgroundPlugin.REQUEST_OVERLAY_PERMISSION})
@@ -105,6 +103,7 @@ public class BubbleBackgroundPlugin extends Plugin {
         this.bubblesManager.initialize();
 
 
+        Log.d("Bubble Plugin", "initializing");
 
         JSObject ret = new JSObject();
         ret.put("value", "test");
